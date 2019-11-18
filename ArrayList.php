@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class ElementMvc_Stdlib_ArrayList
+ * Class ArrayList
  */
 class ArrayList implements
 	ArrayAccess,	/** Interface to provide accessing objects as arrays...but here - strictly an integer indexed array... */
@@ -30,7 +30,7 @@ class ArrayList implements
 
 	/**
 	 * @param null $arr
-	 * @return ElementMvc_Stdlib_ArrayList|null
+	 * @return ArrayList|null
 	 */
 	public static function getInstance($arr = null)
 	{
@@ -207,7 +207,7 @@ class ArrayList implements
 	}
 
 	/**
-	 * Searches for the first occurrence of the given argument. If the element isn´t found, -1 is returned
+	 * Searches for the first occurrence of the given argument. If the element isnÂ´t found, -1 is returned
 	 * @param obj
 	 * @return integer
 	 **/
